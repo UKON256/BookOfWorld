@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[41,)"
+license="All rights reserved"
+
+[[mods]]
+modId="ukon_core"
+version="${file.jarVersion}"
+displayName="UKON's core"
+logoFile="logo.png"
+#credits=""
+authors="ukon"
+description=''' '''
+
+[[dependencies.ukon_core]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ukon_core]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
